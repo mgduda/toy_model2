@@ -4,7 +4,7 @@ program toy_model
 
     implicit none
 
-    character(len=*), parameter :: version = '1.0'
+    character(len=*), parameter :: version = '2.0'
 
     type (phys_state_t) :: pstate    ! Model state for physics
     integer :: istep                 ! Timestep
