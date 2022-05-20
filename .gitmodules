@@ -1,0 +1,3 @@
+[submodule "src/phys"]
+	path = src/phys
+	url = https://github.com/mgduda/shared_physics.git
