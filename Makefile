@@ -11,7 +11,7 @@ intel:
 	$(MAKE) all "FC = ifort"
 
 all:
-	./tools/manage_externals/checkout_externals
+	./tools/manage_externals/checkout_externals --externals ./config/Externals.cfg
 	$(MAKE) -C src toy_model
 	ln -sf src/toy_model .
 
