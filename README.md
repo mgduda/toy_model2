@@ -7,7 +7,7 @@ schemes that come from a separate repository.
 At build time, an attempt is made to obtain a specified version of phyics
 schemes using the ESMCI `manage_externals` tool.  Switching between versions of
 physics or between physics repositories is accomplished by modifying the
-`Externals.cfg` file in the top level of this repository.
+`Externals.cfg` file in the `config` subdirectory of this repository.
 
 ## Building the MMM Toy Model II
 
